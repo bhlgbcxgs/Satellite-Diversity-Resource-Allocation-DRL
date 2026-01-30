@@ -1,17 +1,12 @@
-# Python 编译文件
 __pycache__/
 *.pyc
 
-# IDE 生成的配置文件夹
 .idea/
 .vscode/
 
-# 训练产生的临时数据 (如果数据很大，不要上传)
 results/data/*
 results/model/*
-results/model_param/*
 
-# 但保留文件夹结构 (保留 .gitkeep)
 !results/data/.gitkeep
 !results/model/.gitkeep
 !results/model_param/.gitkeep
